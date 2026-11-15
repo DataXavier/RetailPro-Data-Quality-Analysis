@@ -1,0 +1,60 @@
+RetailPro Inc. — Data Validation Report
+
+Project: Retail Data Quality Improvement
+Assignment: 05 — Data Validation
+Role: Junior Data Quality Analyst
+
+1. Objective
+
+Validate the cleaned inventory dataset to identify missing information, duplicate identifiers, invalid values, and inconsistencies before business reporting.
+
+2. Tools Used
+
+- Google Sheets
+- COUNTBLANK
+- COUNTA
+- COUNTUNIQUE
+- COUNTIF
+- Cross-sheet references
+
+3. Validation Results
+
+Validation Check| Actual Result| Status
+Missing product IDs| 0| PASS
+Duplicate product IDs| 0| PASS
+Blank prices| 0| PASS
+NULL price values| 1| PASS
+Negative prices| 0| PASS
+Negative stock quantities| 0| PASS
+Category consistency| 0| PASS
+Total product records| 6| PASS
+
+4. Findings
+
+- All six inventory records contain product IDs.
+- No duplicate product IDs were detected.
+- One product has a missing price represented by the text NULL.
+- No negative prices or stock quantities were detected.
+- Category capitalization is consistent.
+- All six original product records remain in the cleaned dataset.
+
+5. Outstanding Issue
+
+Product ID 104 (Desk) has a missing price. The price must be verified using an approved business source before the dataset is considered ready for complete inventory valuation reporting.
+
+6. Conclusion
+
+All eight validation tests produced their expected results. The tests confirmed that the cleaned dataset contains six product records, consistent category names, and no duplicate product identifiers or negative numeric values.
+
+One missing price remains unresolved and requires further investigation.
+
+7. Skills Demonstrated
+
+- Data validation
+- Spreadsheet formulas
+- Cross-sheet referencing
+- Duplicate detection
+- Missing-value detection
+- Data quality reporting
+- Formula troubleshooting
+- Documentation

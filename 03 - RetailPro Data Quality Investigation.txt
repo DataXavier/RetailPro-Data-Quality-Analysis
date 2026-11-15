@@ -1,0 +1,93 @@
+RetailPro Inc.
+
+Assignment 03 — Data Quality Investigation
+
+Project: Retail Data Quality Improvement
+Position: Junior Data Quality Analyst
+Assignment: 03 — Identify Data Quality Issues
+Status: Completed
+Assessment Score: 96/100
+
+---
+
+1. Purpose of Investigation
+
+The purpose of this investigation was to examine the RetailPro inventory dataset and identify potential data quality problems before making any corrections.
+
+The investigation focused on duplicate records, missing information, inconsistent formatting, and unusual inventory quantities.
+
+2. Findings
+
+Finding 1: Potential Duplicate Records
+
+Product IDs 101 and 103 appear to be potential duplicate records.
+
+Both records contain:
+
+- Product Name: Laptop
+- Price: $899.99
+- Stock Quantity: 25
+- Category: Electronics / electronics
+
+The records have different product IDs, but their product information matches except for category capitalization.
+
+Recommendation: Investigate both records to determine whether they represent the same product before removing or combining anything.
+
+Finding 2: Missing Information
+
+Product ID 104 (Desk) has a missing price.
+
+The price field contains NULL, indicating that the information is missing or unknown.
+
+Recommendation: Verify the correct price with an approved business source before using the record in inventory valuation calculations.
+
+Finding 3: Inconsistent Category Formatting
+
+Product IDs 105 and 106 have inconsistent category formatting.
+
+- Product 105: Accessories
+- Product 106: accessories
+
+Both records appear to belong to the same category, but the capitalization differs.
+
+Recommendation: Standardize category names using an approved naming convention.
+
+Finding 4: Zero Inventory Quantity
+
+Product ID 105 (Keyboard) has a stock quantity of zero.
+
+This should not automatically be considered a data error because the product may genuinely be out of stock.
+
+Recommendation: Verify the quantity against the inventory system or warehouse records before making any changes.
+
+3. Summary of Data Quality Issues
+
+Product ID| Issue Identified| Recommended Action
+101 and 103| Potential duplicate records| Investigate
+104| Missing price| Verify price
+105 and 106| Inconsistent category formatting| Standardize
+105| Zero stock quantity| Validate quantity
+
+4. Conclusion
+
+The investigation identified several potential data quality issues within the RetailPro inventory dataset.
+
+These include potential duplicate product records, missing pricing information, inconsistent category formatting, and inventory quantities requiring verification.
+
+Before making corrections, each issue should be investigated using approved business rules and reliable source information.
+
+The next step is to use Google Sheets to examine the dataset, document the identified issues, and prepare a separate cleaned version of the inventory records.
+
+5. Skills Demonstrated
+
+- Duplicate record identification
+- Missing value detection
+- Data standardization
+- Inventory data investigation
+- Critical thinking
+- Data quality documentation
+- Analytical problem solving
+
+Prepared by: Junior Data Quality Analyst
+Company: RetailPro Inc. (Fictional)
+Project: Retail Data Quality Improvement

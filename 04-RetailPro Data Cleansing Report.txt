@@ -1,0 +1,50 @@
+RetailPro Inc. — Data Cleansing Report
+
+Project: Retail Data Quality Improvement
+Assignment: 04 — Google Sheets Data Cleansing
+Role: Junior Data Quality Analyst
+
+1. Objective
+
+Clean and review the RetailPro inventory dataset to improve consistency while preserving the original source data.
+
+2. Tools Used
+
+- Google Sheets
+- Original Data worksheet
+- Cleaned Data worksheet
+- Cleaning Log worksheet
+
+3. Data Quality Findings and Actions
+
+Issue| Action Taken| Status
+Inconsistent category capitalization| Standardized category names| Fixed
+Missing product price| Preserved NULL for verification| Needs Review
+Potential duplicate products| Retained both records pending investigation| Needs Review
+Zero inventory quantity| Preserved zero pending verification| Needs Review
+
+4. Data Protection
+
+The original dataset was preserved in a separate worksheet. All cleaning activities were performed on a duplicate working copy.
+
+5. Outstanding Items
+
+- Verify the missing Desk price with an approved source.
+- Investigate whether Laptop records 101 and 103 represent duplicate products.
+- Confirm whether Keyboard inventory quantity of zero accurately reflects warehouse stock.
+
+6. Conclusion
+
+The dataset was reviewed and cleaned for inconsistent category capitalization. Potential data issues were documented rather than changed without evidence.
+
+This process improved data consistency while maintaining data integrity and creating a record of outstanding issues.
+
+7. Skills Demonstrated
+
+- Data cleaning
+- Data quality investigation
+- Google Sheets
+- Duplicate identification
+- Missing-value handling
+- Documentation
+- Data integrity and validation

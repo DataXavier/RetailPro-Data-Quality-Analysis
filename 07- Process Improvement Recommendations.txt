@@ -1,0 +1,50 @@
+RetailPro Inc.
+
+Process Improvement Recommendations
+
+1. Objective
+
+Recommend improvements to RetailPro's inventory data management process to reduce data quality issues and improve the accuracy of inventory reporting.
+
+2. Issues Identified
+
+The inventory dataset contained:
+
+- Inconsistent category capitalization.
+- A missing price for product ID 104 (Desk).
+- Two Laptop records that may be duplicates.
+- A Keyboard record with zero stock quantity that requires verification.
+
+3. Recommended Improvements
+
+Issue| Recommendation| Expected Benefit
+Inconsistent category formatting| Use a standardized category list or dropdown in the inventory system.| Consistent reporting by category.
+Missing product prices| Require a valid price before a product record can be approved.| Fewer incomplete records.
+Potential duplicate products| Add duplicate checks using product ID and product details. Require review before merging or deleting records.| Reduce duplicate records without losing valid data.
+Zero stock quantity| Confirm zero quantities against warehouse inventory records.| More reliable stock reporting.
+Recurring data quality problems| Perform regular data quality checks and maintain a cleaning log.| Identify problems earlier.
+
+4. Recommended Process
+
+1. Warehouse or purchasing staff enter inventory information.
+2. The system checks required fields and approved category values.
+3. Potential duplicates and missing values are flagged for review.
+4. Inventory staff verify flagged records against the source system.
+5. Approved corrections are made and documented.
+6. The data analyst runs validation checks.
+7. Management receives an updated inventory report.
+
+5. Success Measures
+
+- All product records have a unique product ID.
+- Required product fields are complete.
+- Category names follow the approved standard.
+- Potential duplicates are reviewed and documented.
+- Inventory quantities are verified against warehouse records.
+- Inventory reports pass validation checks before distribution.
+
+6. Conclusion
+
+Implementing standardized data entry, validation checks, duplicate review, and regular monitoring can improve RetailPro's inventory data quality. These changes can help management make more reliable inventory and purchasing decisions.
+
+Prepared by: Junior Data Quality Analyst

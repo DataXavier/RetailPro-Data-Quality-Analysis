@@ -1,0 +1,7 @@
+02 - RetailPro Data Dictionary
+Column Definition
+product_id Unique identifier for a product record
+product_name Name or description of the product
+category Classification or group assigned to the product
+price Monetary amount associated with the product
+stock_quantity Number of units recorded in inventory

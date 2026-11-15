@@ -1,0 +1,119 @@
+RetailPro Inc.
+
+Retail Data Quality Improvement — Final Project Summary
+
+Role: Junior Data Quality Analyst
+Project: Retail Inventory Data Quality Improvement
+Organization: RetailPro Inc. (Simulated)
+
+1. Project Overview
+
+The objective of this project was to investigate inventory data quality issues, clean and validate product records, analyze inventory information using SQL, and develop a dashboard to support management reporting.
+
+2. Business Problem
+
+RetailPro's inventory dataset contained inconsistent category formatting, a missing product price, potential duplicate product records, and a zero-stock product requiring verification.
+
+These issues could affect inventory reporting and business decisions.
+
+3. Tools Used
+
+- Google Sheets — data cleaning and validation
+- Google BigQuery — SQL queries and analysis
+- Google Data Studio — dashboard creation
+- Google Docs — business documentation and reports
+
+4. Data Quality Findings
+
+The dataset contained six records representing five unique product names.
+
+Key findings:
+
+- Potential duplicate Laptop records: Product IDs 101 and 103.
+- Missing price: Product ID 104, Desk.
+- Inconsistent category capitalization: Electronics and Accessories.
+- Zero stock: Product ID 105, Keyboard.
+
+Potential duplicates and questionable records were preserved pending verification.
+
+5. Data Cleaning and Validation
+
+I created a separate cleaned dataset while preserving the original source data.
+
+Actions included:
+
+- Standardizing category capitalization.
+- Preserving the missing Desk price for investigation.
+- Keeping potential duplicate Laptop records for review.
+- Preserving the Keyboard zero-stock quantity.
+- Creating a cleaning log.
+- Performing validation checks for missing IDs, duplicate IDs, prices, negative values, category consistency, and record counts.
+
+6. SQL Analysis
+
+I used SQL to:
+
+- Retrieve inventory records.
+- Identify low-stock products.
+- Calculate total stock quantity.
+- Calculate inventory value.
+- Summarize inventory by category.
+- Identify missing prices.
+- Investigate potential duplicate product names.
+- Calculate average product price and record counts.
+
+Key results:
+
+- Total inventory quantity: 177 units.
+- Total records: 6.
+- Unique product names: 5.
+- Products with fewer than 20 units: Keyboard and Desk.
+- Recorded inventory value: $52,498.35.
+
+The inventory value is incomplete because the Desk's price is missing.
+
+7. Dashboard
+
+I created an inventory dashboard containing:
+
+- Total inventory units.
+- Inventory value scorecard.
+- Inventory quantities by category.
+- Low-stock product table.
+- Data quality warning.
+
+The dashboard was saved in Data Studio and exported as a PDF for the portfolio.
+
+8. Process Improvement
+
+I recommended:
+
+- Standardized category dropdowns.
+- Required-field validation.
+- Duplicate detection and review.
+- Warehouse verification of zero-stock records.
+- Regular data quality checks.
+- Documentation of data corrections.
+
+9. Skills Demonstrated
+
+- Data quality investigation
+- Data cleansing
+- Google Sheets
+- SQL querying
+- Data validation
+- Inventory analysis
+- Dashboard development
+- Business documentation
+- Process improvement
+- Reporting support
+
+10. Conclusion
+
+This project provided hands-on experience with the data analyst workflow, from understanding business requirements to investigating, cleaning, validating, analyzing, and visualizing data.
+
+It demonstrated how data quality improvements can support more reliable inventory reporting and better business decisions.
+
+Project Status: Completed — Simulated Retail Data Quality Project
+
+Prepared by: Junior Data Quality Analyst
