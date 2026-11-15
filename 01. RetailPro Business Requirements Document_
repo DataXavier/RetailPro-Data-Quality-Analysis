@@ -1,0 +1,122 @@
+RetailPro Inc.
+
+Business Requirements Document (BRD)
+
+Project: Retail Data Quality Improvement
+Prepared by: Junior Data Quality Analyst
+Document Version: 1.0 – Draft
+Project Status: Requirements Gathering
+
+---
+
+1. Business Problem
+
+RetailPro Inc. is experiencing data quality issues affecting its inventory management system.
+
+Current problems include duplicate product records, missing product prices, incorrect inventory quantities, and inconsistent product categories.
+
+These issues result in unreliable inventory reports, making it difficult for management to determine actual inventory levels, identify low-stock products, and calculate total inventory value.
+
+2. Project Objective
+
+Investigate, identify, and help resolve inventory data quality issues.
+
+Establish consistent data standards and validation procedures to improve inventory accuracy and provide management with reliable reporting.
+
+3. Known Data Quality Issues
+
+Issue| Description
+Duplicate records| Products appear multiple times
+Missing values| Some products have no recorded prices
+Incorrect quantities| System quantities differ from physical inventory
+Inconsistent formatting| Similar products have different category names
+Inaccurate reporting| Management cannot consistently trust inventory figures
+
+4. Business Requirements
+
+The business requires:
+
+1. A complete inventory of unique products.
+2. Accurate inventory quantities.
+3. Identification of duplicate product records.
+4. Identification of missing or invalid prices.
+5. Standardized product categories.
+6. Identification of products below approved stock thresholds.
+7. Calculation of total inventory value using an approved valuation rule.
+8. Regularly updated inventory reports.
+
+5. Stakeholders
+
+Stakeholder| Responsibility
+Inventory Manager| Defines business requirements
+Warehouse Team| Verifies physical inventory
+IT/Data Engineering| Investigates and corrects technical issues
+Purchasing| Reviews product and supplier information
+Finance| Confirms inventory valuation rules
+Management| Reviews reports and project results
+Data Quality Analyst| Investigates, documents, validates, and communicates findings
+
+6. Questions Requiring Clarification
+
+The following requirements must be confirmed before implementation:
+
+- Which system is the official source of inventory data?
+- What identifies a unique product?
+- What rules determine whether records are duplicates?
+- What quantity defines low inventory?
+- Should inventory value be calculated using selling price or purchase cost?
+- How should missing prices be handled?
+- How frequently should reports be refreshed?
+- Who is authorized to approve data corrections?
+
+7. Reporting Requirements
+
+The inventory report should include:
+
+- Total unique products.
+- Total inventory quantity.
+- Total inventory value.
+- Products below low-stock thresholds.
+- Number of duplicate records.
+- Number of missing or invalid prices.
+- Last successful data refresh.
+
+8. Data Validation Requirements
+
+Before reporting, the analyst must verify:
+
+- Product identifiers meet uniqueness rules.
+- Required fields are populated.
+- Prices meet approved business rules.
+- Inventory quantities are valid.
+- Product categories follow approved standards.
+- Inventory totals reconcile with the approved source.
+- Calculated inventory values follow Finance-approved rules.
+
+9. Project Success Criteria
+
+The project will be considered successful when:
+
+1. Identified data quality issues have been documented.
+2. Approved corrections have been implemented.
+3. Cleaned data passes agreed validation tests.
+4. Inventory reports meet stakeholder requirements.
+5. Data quality procedures are documented.
+6. Recommendations are established to prevent recurring problems.
+
+10. Project Deliverables
+
+- Business Requirements Document.
+- Data Dictionary.
+- Raw Inventory Dataset.
+- Cleaned Inventory Dataset.
+- SQL Data Quality Queries.
+- Data Validation Report.
+- Process Improvement Recommendations.
+- Inventory Reporting Dashboard.
+
+---
+
+Document Status: Draft pending stakeholder confirmation.
+
+Important: Unconfirmed business rules must be approved by the appropriate stakeholders before data corrections or reporting logic are finalized.
